@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.pokemonDiv {
+    display: flex;
+    /* border: 1px black solid; */
+    flex-wrap: wrap; 
+    background-color: red;
+    width: 100%;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.pokemonShell {
+    border: .01px solid black;
+    width: 33%;
+    text-align: center;
+    margin: 1px 1px 1px 1px;
+}
+
+/* .pokeImage {
+    width: 25%;
+    align-self: flex-start;
+    order : 1;
+} */

@@ -9,8 +9,8 @@ body {
     flex-wrap: wrap; 
     background-color: red;
     width: 100%;
-    justify-content: center;
-    align-content: flex-start;
+    /* justify-content: center; */
+    /* align-content: flex-start; */
 }
 
 .pokemonShell {
@@ -25,3 +25,8 @@ body {
     align-self: flex-start;
     order : 1;
 } */
+
+.pokemonName {
+    width: 100%;
+    text-align: center;
+}

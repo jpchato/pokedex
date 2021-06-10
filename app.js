@@ -48,10 +48,10 @@ fetch('https://pokeapi.co/api/v2/pokemon/?offset=0&limit=151')
         .then(data => {
           pokeName = data.name
           if (data.types.length === 2){
-            $(".pokemonDiv" ).append('<div class="pokemonShell">'+ "<h2 class='pokemonName'>"+pokeName[0].toUpperCase()+pokeName.slice(1)+"</h2>"+"<img class='pokeImage' src='"+data.sprites.front_default+"'></img>"+"<p>"+data.types[0].type.name+"<p>"+"<p>"+data.types[1].type.name+"<p>"+'</div>')
+            $(".pokemonDiv" ).append('<div class="pokemonShell">'+ "<h2 href='google.com' class='pokemonName'>"+pokeName[0].toUpperCase()+pokeName.slice(1)+"</h2>"+"<img class='pokeImage' src='"+data.sprites.front_default+"'></img>"+"<p>"+data.types[0].type.name+"<p>"+"<p>"+data.types[1].type.name+"<p>"+'</div>')
           }
           else{
-            $(".pokemonDiv" ).append('<div class="pokemonShell">'+ "<h2 class='pokemonName'>"+pokeName[0].toUpperCase()+pokeName.slice(1)+"</h2>"+"<img class='pokeImage' src='"+data.sprites.front_default+"'></img>"+"<p>"+data.types[0].type.name+"<p>"+'</div>')
+            $(".pokemonDiv" ).append('<div class="pokemonShell">'+ "<h2 href='google.com' class='pokemonName'>"+pokeName[0].toUpperCase()+pokeName.slice(1)+"</h2>"+"<img class='pokeImage' src='"+data.sprites.front_default+"'></img>"+"<p>"+data.types[0].type.name+"<p>"+'</div>')
           }
           
       })
